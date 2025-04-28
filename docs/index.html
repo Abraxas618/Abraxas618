@@ -14,7 +14,7 @@
     }
     #screen {
       padding: 20px;
-      height: 100vh;
+      min-height: 100vh;
       width: 100%;
       overflow: hidden;
       white-space: pre-wrap;
@@ -26,22 +26,24 @@
         #000000 3px
       );
       animation: flicker 0.15s infinite;
+      text-align: center;
     }
     @keyframes flicker {
       0% {opacity: 1;}
-      50% {opacity: 0.9;}
+      50% {opacity: 0.95;}
       100% {opacity: 1;}
     }
-    .hidden {
-      display: none;
+    a {
+      color: #00ff00;
+      text-decoration: underline;
     }
-    .center-logo {
-      text-align: center;
-      margin-top: 40px;
+    a:hover {
+      color: #00d1b2;
     }
-    .center-logo img {
-      max-width: 300px;
-      margin-top: 30px;
+    .logo-img {
+      max-width: 280px;
+      margin: 30px 0;
+      filter: brightness(1.2);
     }
   </style>
 </head>
@@ -66,36 +68,37 @@ function typeLine() {
   if (index < lines.length) {
     screen.innerHTML += lines[index] + "\n";
     index++;
-    setTimeout(typeLine, 1200);
+    setTimeout(typeLine, 900);
   } else {
-    setTimeout(showLogoAndLinks, 1000);
+    setTimeout(showLogoAndLinks, 800);
   }
 }
 
 function showLogoAndLinks() {
   screen.innerHTML += "\n\n" +
+    "<img class='logo-img' src='transparentlogonew.png' alt='Baramay Station Logo'>\n\n" +
     "🚀 Sovereign Research Papers and Frameworks:\n" +
-    "- The Codex Constitution\n" +
-    "- The Covenant of the Starborn\n" +
-    "- TetraCodex Unified\n" +
-    "- TetraKlein Genesis\n" +
-    "- TetraVote Framework\n" +
-    "- TetraNav Navigation System\n" +
-    "- TetraLink BCI Protocol\n" +
-    "- Omni-Causal Hyperlattice Cryptography\n" +
-    "- Tetrahedral Hyperdimensional Algebra\n" +
-    "- Recursive Tesseract Hashing (RTH)\n" +
-    "- TetraSwarm Nexus\n" +
-    "- TQPL - TetraQuantum Programming Language\n\n" +
-    "💬 Contact: michaeltassmacdonald@outlook.com\n";
-
-  const logoDiv = document.createElement('div');
-  logoDiv.className = 'center-logo';
-  logoDiv.innerHTML = '<img src="transparentlogonew.png" alt="Baramay Station Logo">';
-  document.body.appendChild(logoDiv);
+    "- <a href='the_codex_constitution_a_sovereign_swarm_framework_for_biometric_trust_and_post-linear_ethics.pdf'>The Codex Constitution</a>\n" +
+    "- <a href='The%20Covenant%20of%20the%20Starborn%20Rise%20of%20The%20High%20Priest%20of%20Unimetrix%201.pdf'>The Covenant of the Starborn</a>\n" +
+    "- <a href='TetraUnified.pdf'>TetraCodex Unified</a>\n" +
+    "- <a href='TetraSwarm_Nexus__A_Bio_Synchronized_Encryption_Aware_Cognitive_Lattice.pdf'>TetraKlein Genesis</a>\n" +
+    "- <a href='TetraVote-A-National-Framework-For-Sovereign-Quantum-Resilient-Elections.pdf'>TetraVote Framework</a>\n" +
+    "- <a href='TetraNav.pdf'>TetraNav Navigation System</a>\n" +
+    "- <a href='TetraLink_BCI.pdf'>TetraLink BCI Protocol</a>\n" +
+    "- <a href='Omni_Causal_Hyperlattice_Cryptography%20(1).pdf'>Omni-Causal Hyperlattice Cryptography</a>\n" +
+    "- <a href='Tetrahedral-Hyperdimensional-Algebra.pdf'>Tetrahedral Hyperdimensional Algebra</a>\n" +
+    "- <a href='THAFull95page.pdf'>Recursive Tesseract Hashing (RTH)</a>\n" +
+    "- <a href='TetraSwarm.pdf'>TetraSwarm Nexus</a>\n" +
+    "- <a href='TQPL.pdf'>TQPL - TetraQuantum Programming Language</a>\n\n" +
+    "🌟 <a href='BaramayStationLogo.png'>Official Baramay Station Logo</a>\n\n" +
+    "🕊️ Licensing:\n" +
+    "- <a href='LICENSE.md'>Apache 2.0 + MIT License</a>\n\n" +
+    "💬 Contact:\n" +
+    "- Email: <a href='mailto:michaeltassmacdonald@outlook.com'>michaeltassmacdonald@outlook.com</a>\n" +
+    "- ORCID: <a href='https://orcid.org/0009-0005-6468-7651'>0009-0005-6468-7651</a>\n" +
+    "- Zenodo Archive: <a href='https://zenodo.org/records/15207676'>Zenodo Research Records</a>\n";
 }
 
-// Start typing after small delay
 setTimeout(typeLine, 1000);
 </script>
 
