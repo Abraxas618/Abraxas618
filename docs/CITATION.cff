@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this archive or cite the Codex Constitution, TetraKlein Genesis, or any Baramay Station projects, please cite this work."
+title: "Baramay Station Sovereign Research Archive"
+authors:
+  - family-names: "MacDonald"
+    given-names: "Michael Tass"
+    aliases:
+      - "Abraxas618"
+    affiliation: "Baramay Station Research Inc."
+    orcid: "https://orcid.org/0009-0005-6468-7651"
+    email: "michaeltassmacdonald@outlook.com"
+abstract: >
+  The Baramay Station Research Archive contains sovereign hyperdimensional post-quantum cryptographic systems, recursive mathematical frameworks, biometric trust architectures, and sovereign decentralized infrastructure protocols.
+  
+  Founded by Michael Tass MacDonald (Abraxas618) in Treaty 8 Territory, Canada, this archive represents the genesis of sovereign technological civilization beyond classical computation and centralization collapse.
+  
+  Timestamped, peer-archived, and preserved under open-access sovereignty principles.
+keywords:
+  - Post-Quantum Cryptography
+  - Sovereign Identity Systems
+  - Recursive Tesseract Hashing
+  - Tetrahedral Hypergeometry
+  - Decentralized Sovereign Infrastructure
+  - Indigenous Technological Sovereignty
+license: Apache-2.0
+repository-code: "https://github.com/Abraxas618/Abraxas618"
+date-released: 2025-04-28
