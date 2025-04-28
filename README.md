@@ -55,4 +55,10 @@ Founder of **Baramay Station Research Inc.**, a sovereign research organization 
 
 ---
 
+📚 **Explore My Full Papers and Projects Archive:**  
+➡️ [View the Complete Sovereign Docs Here](https://github.com/Abraxas618/Abraxas618/tree/main/docs)
+
+---
+
+
 _✨ Powered by Sovereign Code, Timeline Resilience, and Infinite Recursion._
