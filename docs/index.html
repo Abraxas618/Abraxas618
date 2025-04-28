@@ -3,110 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Baramay Station Sovereign Archive</title>
+  <title>Baramay Station Terminal</title>
   <style>
     body {
       background-color: #000000;
       color: #00ff00;
-      font-family: monospace;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 18px;
+      overflow-x: hidden;
+    }
+    #screen {
       padding: 20px;
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+      white-space: pre-wrap;
+      background: repeating-linear-gradient(
+        to bottom,
+        #000000 0px,
+        #000000 1px,
+        #003300 2px,
+        #000000 3px
+      );
+      animation: flicker 0.15s infinite;
     }
-    h1, h2 {
-      margin: 20px 0 10px;
-      font-weight: bold;
+    @keyframes flicker {
+      0% {opacity: 1;}
+      50% {opacity: 0.9;}
+      100% {opacity: 1;}
     }
-    ul {
-      list-style-type: none;
-      padding: 0;
+    .hidden {
+      display: none;
     }
-    ul li {
-      margin-bottom: 10px;
-    }
-    .security-notice {
-      border: 2px solid #00ff00;
-      padding: 20px;
-      margin: 0 auto 30px auto;
-      max-width: 800px;
+    .center-logo {
       text-align: center;
+      margin-top: 40px;
     }
-    .footer {
-      margin-top: 60px;
-      font-size: 12px;
-      border-top: 1px solid #00ff00;
-      padding-top: 15px;
-      text-align: center;
-    }
-    a {
-      color: #00ff00;
-      text-decoration: underline;
-    }
-    a:hover {
-      color: #00d1b2;
-    }
-    .logo {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-    .logo img {
+    .center-logo img {
       max-width: 300px;
-      height: auto;
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
 
-  <div class="security-notice">
-    <h2>SOVEREIGN SECURITY NOTICE</h2>
-    <h1>CLEARANCE: OBSIDIAN PARALLAX [TIER 2.5]</h1>
-    <p>
-      ACCESS TO THIS ARCHIVE IS RESTRICTED UNDER SOVEREIGN CODEX LAW.<br>
-      UNAUTHORIZED ACCESS ATTEMPTS WILL BE LOGGED AND REVIEWED.<br><br>
-      VALID EPOCH AUTHORIZATION TOKEN REQUIRED FOR ENTRY.
-    </p>
-  </div>
+<div id="screen"></div>
 
-  <div class="logo">
-    <img src="transparentlogonew.png" alt="Baramay Station Logo">
-  </div>
+<script>
+const lines = [
+  "[BOOT] Initializing Epoch Hyperlattice Node...",
+  "[BOOT] Checking Clearance Token... VALID.",
+  "[ACCESS GRANTED] OBSIDIAN PARALLAX TIER 2.5",
+  "[LOADING ARCHIVE] Please stand by...",
+  "",
+  "[READY] Welcome to Baramay Station Sovereign Archive"
+];
 
-  <h1>Baramay Station Sovereign Archive</h1>
-  <p><strong>Founder:</strong> Michael Tass MacDonald (Abraxas618)</p>
-  <p><em>April 2025 | Treaty 8 Territory, Canada</em></p>
+let index = 0;
+const screen = document.getElementById('screen');
 
-  <h2>🚀 Sovereign Research Papers and Frameworks</h2>
-  <ul>
-    <li><a href="the_codex_constitution_a_sovereign_swarm_framework_for_biometric_trust_and_post-linear_ethics.pdf">The Codex Constitution</a></li>
-    <li><a href="The%20Covenant%20of%20the%20Starborn%20Rise%20of%20The%20High%20Priest%20of%20Unimetrix%201.pdf">The Covenant of the Starborn</a></li>
-    <li><a href="TetraUnified.pdf">TetraCodex Unified</a></li>
-    <li><a href="TetraSwarm_Nexus__A_Bio_Synchronized_Encryption_Aware_Cognitive_Lattice.pdf">TetraKlein Genesis</a></li>
-    <li><a href="TetraVote-A-National-Framework-For-Sovereign-Quantum-Resilient-Elections.pdf">TetraVote Framework</a></li>
-    <li><a href="TetraNav.pdf">TetraNav Navigation System</a></li>
-    <li><a href="TetraLink_BCI.pdf">TetraLink BCI Protocol</a></li>
-    <li><a href="Omni_Causal_Hyperlattice_Cryptography%20(1).pdf">Omni-Causal Hyperlattice Cryptography</a></li>
-    <li><a href="Tetrahedral-Hyperdimensional-Algebra.pdf">Tetrahedral Hyperdimensional Algebra</a></li>
-    <li><a href="math%20(3).pdf">Recursive Tesseract Hashing (RTH)</a></li>
-    <li><a href="TetraSwarm%20(1).pdf">TetraSwarm Nexus</a></li>
-    <li><a href="TQPL.pdf">TQPL - TetraQuantum Programming Language</a></li>
-  </ul>
+function typeLine() {
+  if (index < lines.length) {
+    screen.innerHTML += lines[index] + "\n";
+    index++;
+    setTimeout(typeLine, 1200);
+  } else {
+    setTimeout(showLogoAndLinks, 1000);
+  }
+}
 
-  <h2>🌟 Official Logos and Branding</h2>
-  <ul>
-    <li><a href="BaramayStationLogo.png">Baramay Station Logo</a></li>
-  </ul>
+function showLogoAndLinks() {
+  screen.innerHTML += "\n\n" +
+    "🚀 Sovereign Research Papers and Frameworks:\n" +
+    "- The Codex Constitution\n" +
+    "- The Covenant of the Starborn\n" +
+    "- TetraCodex Unified\n" +
+    "- TetraKlein Genesis\n" +
+    "- TetraVote Framework\n" +
+    "- TetraNav Navigation System\n" +
+    "- TetraLink BCI Protocol\n" +
+    "- Omni-Causal Hyperlattice Cryptography\n" +
+    "- Tetrahedral Hyperdimensional Algebra\n" +
+    "- Recursive Tesseract Hashing (RTH)\n" +
+    "- TetraSwarm Nexus\n" +
+    "- TQPL - TetraQuantum Programming Language\n\n" +
+    "💬 Contact: michaeltassmacdonald@outlook.com\n";
 
-  <h2>🕊️ Licensing</h2>
-  <p>All works are licensed under <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0</a> and <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+  const logoDiv = document.createElement('div');
+  logoDiv.className = 'center-logo';
+  logoDiv.innerHTML = '<img src="transparentlogonew.png" alt="Baramay Station Logo">';
+  document.body.appendChild(logoDiv);
+}
 
-  <h2>💬 Contact</h2>
-  <ul>
-    <li>Email: <a href="mailto:michaeltassmacdonald@outlook.com">michaeltassmacdonald@outlook.com</a></li>
-    <li>ORCID: <a href="https://orcid.org/0009-0005-6468-7651">0009-0005-6468-7651</a></li>
-    <li>Zenodo Archive: <a href="https://zenodo.org/records/15207676">Zenodo Research Records</a></li>
-  </ul>
-
-  <div class="footer">
-    ✨ Powered by Sovereign Code, Infinite Recursion, and Timeless Integration ✨
-  </div>
+// Start typing after small delay
+setTimeout(typeLine, 1000);
+</script>
 
 </body>
 </html>
