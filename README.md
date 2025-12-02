@@ -27,34 +27,34 @@ The organization operates as a non-profit technical laboratory dedicated to tran
 All programs listed are exploratory prototypes subject to ongoing analysis and refinement.
 
 ### TetraCodex
-Recursive post-quantum cryptographic model and entropy-structured codex architecture.
+Recursive post-quantum cryptographic model and entropy-structured codex architecture. (Concept R&D Later absorbed into TetraKlein)
 
 ### TetraKlein
 Multidimensional verifiable computation framework and XR-integrated runtime environment.
 
 ### TetraUnified
-Unified post-quantum decentralized execution and compute integrity framework.
+Unified post-quantum decentralized execution and compute integrity framework. (Concept R&D Later absorbed into TetraKlein)
 
 ### TetraNav
 High-dimensional geospatial and inertial navigation research.
 
 ### TetraSwarm
-Distributed mesh networking, routing methods, and address architecture studies.
+Distributed mesh networking, routing methods, and address architecture studies. (Concept R&D Later absorbed into TetraKlein)
 
 ### TetraVote
-Zero-knowledge, post-quantum voting protocol investigation.
+Zero-knowledge, post-quantum voting protocol investigation. (Concept R&D)
 
 ### OCHC-Q-FP
 Biometric-entropy lattice cryptographic scheme (concept phase).
 
 ### Recursive Tesseract Hashing (RTH)
-Experimental four-dimensional entropy recursion function for verifiable state.
+Experimental four-dimensional entropy recursion function for verifiable state. (Work In Progress)
 
 ### Tetrahedral Key Exchange (TKE-12D)
-Multidimensional key exchange mechanism under analytical review.
+Multidimensional key exchange mechanism under analytical review.  (Work In Progress)
 
 ### QIDL
-Iso-dodecahedral lattice encryption model (conceptual).
+Iso-dodecahedral lattice encryption model (Work In Progress)
 
 ### Codex Archives
 Framework for long-term, cryptographically anchored research recordkeeping.
@@ -74,9 +74,6 @@ All documents listed are research prototypes, in-progress theoretical constructs
 
 - TetraKlein Genesis (Public Overview)  
   https://medium.com/@tassalphonse/tetraklein-genesis-v1-4-the-dawn-of-hyperdimensional-infrastructure-ad55ebca7025
-
-- IPFS Research Archive  
-  https://ipfs.io/ipfs/bafkreig22qcyqmumtrj4j2c7fhaci6aiqs2ox6vrmgvk23ui7wevrsqn3a
 
 ## Mission Statement
 
@@ -107,8 +104,6 @@ Incorporation: April 30, 2025 — Saskatchewan, Canada
 All contents are subject to change as research evolves.
 
 ## Archive Access
-
-https://abraxas618.github.io/Abraxas618/
 
 [![ENTER_THE_ARCHIVE](https://img.shields.io/badge/ENTER_THE_ARCHIVE-00ff00?style=for-the-badge&logo=readthedocs&logoColor=black)](https://abraxas618.github.io/Abraxas618/)
 
