@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Baramay Station Terminal</title>
+  <title>Baramay Station Research Terminal</title>
   <style>
     body {
       background-color: #000000;
@@ -53,12 +53,12 @@
 
 <script>
 const lines = [
-  "[BOOT] Initializing Epoch Hyperlattice Node...",
-  "[BOOT] Checking Clearance Token... VALID.",
-  "[ACCESS GRANTED] OBSIDIAN PARALLAX TIER 2.5",
-  "[LOADING ARCHIVE] Please stand by...",
+  "[BOOT] Initializing Baramay Station Research Terminal...",
+  "[BOOT] System Integrity Check... OK.",
+  "[STATUS] Public Access Node Loaded.",
+  "[LOADING] Preparing Research Archive...",
   "",
-  "[READY] Welcome to Baramay Station Sovereign Archive"
+  "[READY] Baramay Station Research Inc. — Public R&D Archive"
 ];
 
 let index = 0;
@@ -77,32 +77,51 @@ function typeLine() {
 function showLogoAndLinks() {
   screen.innerHTML += "\n\n" +
     "<img class='logo-img' src='transparentlogonew.png' alt='Baramay Station Logo'>\n\n" +
-    "🚀 Sovereign Research Papers and Frameworks:\n" +
-    "- <a href='the_codex_constitution_a_sovereign_swarm_framework_for_biometric_trust_and_post-linear_ethics.pdf'>The Codex Constitution</a>\n" +
-    "- <a href='The%20Covenant%20of%20the%20Starborn%20Rise%20of%20The%20High%20Priest%20of%20Unimetrix%201.pdf'>The Covenant of the Starborn</a>\n" +
-    "- <a href='TetraUnified.pdf'>TetraCodex Unified</a>\n" +
-    "- <a href='TetraSwarm_Nexus__A_Bio_Synchronized_Encryption_Aware_Cognitive_Lattice.pdf'>TetraKlein Genesis</a>\n" +
-    "- <a href='TetraVote-A-National-Framework-For-Sovereign-Quantum-Resilient-Elections.pdf'>TetraVote Framework</a>\n" +
-    "- <a href='TetraNav.pdf'>TetraNav Navigation System</a>\n" +
-    "- <a href='TetraLink_BCI.pdf'>TetraLink BCI Protocol</a>\n" +
-    "- <a href='Omni_Causal_Hyperlattice_Cryptography%20(1).pdf'>Omni-Causal Hyperlattice Cryptography</a>\n" +
+    "Baramay Station Research Inc.<br>\n" +
+    "Canadian Non-Profit Research Laboratory<br>\n" +
+    "Experimental R&D in Cryptography, Verifiable Computation, and XR Systems\n\n" +
+
+    "---------------------------------------------\n" +
+    "Research Papers and Technical Frameworks\n" +
+    "---------------------------------------------\n" +
+    "- <a href='the_codex_constitution_a_sovereign_swarm_framework_for_biometric_trust_and_post-linear_ethics.pdf'>Codex Constitution (Historical — Superseded)</a>\n" +
+    "- <a href='TetraUnified.pdf'>TetraCodex Unified (R&D)</a>\n" +
+    "- <a href='TetraSwarm_Nexus__A_Bio_Synchronized_Encryption_Aware_Cognitive_Lattice.pdf'>TetraKlein Genesis (R&D)</a>\n" +
+    "- <a href='TetraVote-A-National-Framework-For-Sovereign-Quantum-Resilient-Elections.pdf'>TetraVote Framework (R&D)</a>\n" +
+    "- <a href='TetraNav.pdf'>TetraNav Navigation System (R&D)</a>\n" +
+    "- <a href='TetraLink_BCI.pdf'>TetraLink BCI Protocol (R&D)</a>\n" +
+    "- <a href='Omni_Causal_Hyperlattice_Cryptography%20(1).pdf'>Omni-Causal Hyperlattice Cryptography (R&D)</a>\n" +
     "- <a href='Tetrahedral-Hyperdimensional-Algebra.pdf'>Tetrahedral Hyperdimensional Algebra (Summary)</a>\n" +
-    "- <a href='THAFull95page.pdf'>Tetrahedral Hyperdimensional Algebra (Full 95-Page Manuscript)</a>\n" +
-    "- <a href='THA_Paper.pdf'>Tetrahedral Hyperdimensional Algebra — Research Paper</a>\n" +
-    "- <a href='TetraSwarm.pdf'>TetraSwarm Nexus</a>\n" +
-    "- <a href='TQPL.pdf'>TQPL - TetraQuantum Programming Language</a>\n\n" +
-    "📜 Legal, Metadata and Citations:\n" +
+    "- <a href='THAFull95page.pdf'>Tetrahedral Hyperdimensional Algebra (Full Manuscript)</a>\n" +
+    "- <a href='THA_Paper.pdf'>THA Research Paper</a>\n" +
+    "- <a href='TetraSwarm.pdf'>TetraSwarm Nexus (R&D)</a>\n" +
+    "- <a href='TQPL.pdf'>TetraQuantum Programming Language (R&D)</a>\n\n" +
+
+    "---------------------------------------------\n" +
+    "Legal, Metadata, and Documentation\n" +
+    "---------------------------------------------\n" +
     "- <a href='LICENSE.md'>LICENSE (Apache 2.0 + MIT)</a>\n" +
     "- <a href='NOTICE.md'>NOTICE</a>\n" +
-    "- <a href='CITATION.cff'>CITATION Metadata</a>\n" +
-    "- <a href='README.MD'>README Overview</a>\n\n" +
-    "🌟 <a href='BaramayStationLogo.png'>Official Baramay Station Logo</a>\n\n" +
-    "🕊️ Licensing:\n" +
-    "- <a href='LICENSE.md'>Apache 2.0 + MIT License</a>\n\n" +
-    "💬 Contact:\n" +
+    "- <a href='CITATION.cff'>Citation Metadata</a>\n" +
+    "- <a href='README.MD'>Repository Overview</a>\n\n" +
+
+    "---------------------------------------------\n" +
+    "Branding and Public Materials\n" +
+    "---------------------------------------------\n" +
+    "- <a href='BaramayStationLogo.png'>Official Baramay Station Logo</a>\n\n" +
+
+    "---------------------------------------------\n" +
+    "Contact\n" +
+    "---------------------------------------------\n" +
     "- Email: <a href='mailto:michaeltassmacdonald@outlook.com'>michaeltassmacdonald@outlook.com</a>\n" +
     "- ORCID: <a href='https://orcid.org/0009-0005-6468-7651'>0009-0005-6468-7651</a>\n" +
-    "- Zenodo Archive: <a href='https://zenodo.org/records/15207676'>Zenodo Research Records</a>\n";
+    "- Zenodo Archive: <a href='https://zenodo.org/records/15207676'>Zenodo Research Records</a>\n\n" +
+
+    "---------------------------------------------\n" +
+    "Note\n" +
+    "---------------------------------------------\n" +
+    "All documents provided here are experimental research materials.\n" +
+    "They do not represent verified technologies or operational systems.\n";
 }
 
 setTimeout(typeLine, 1000);
