@@ -1,108 +1,112 @@
+
 # Baramay Station Research Inc.
 
-Principal Investigator: Michael Tass MacDonald  
+Principal Investigator: **Michael Tass MacDonald**  
 Founder • Research Director • Cryptography Architect  
 Canadian Non-Profit Research Laboratory
 
+---
+
 ## Executive Overview
 
-This repository provides a consolidated archive of Baramay Station Research Inc.’s ongoing exploratory research programs. All work presented here is strictly experimental, under active research and development, and has not undergone formal verification, certification, peer review, or independent validation of any scientific or engineering claims.
+Baramay Station Research Inc. is an independent Canadian nonprofit laboratory conducting exploratory research into advanced computation, cryptography, and distributed systems.
 
-The artefacts in this archive represent pre-deployment research prototypes, mathematical investigations, and conceptual system architectures. They must not be interpreted as production technologies, operational capabilities, or confirmed cryptographic assurances.
+This GitHub hosts concept prototypes, theoretical investigations, and research-in-progress artifacts. All material is:
+
+- non-functional  
+- experimental  
+- unverified  
+- intended for academic and exploratory purposes only  
+
+None of the repositories represent production systems, validated cryptography, or operational technologies.
+
+---
 
 ## Research Focus
 
-Baramay Station Research Inc. conducts applied research at the intersection of:
+The laboratory investigates early-stage concepts across several domains:
 
-- post-quantum cryptography
-- verifiable computation
-- high-dimensional mathematical modeling
-- mesh network infrastructure
-- simulation-aligned extended-reality architectures
+- post-quantum cryptography  
+- experimental VM and execution models  
+- distributed and mesh networking concepts  
+- verifiable computation  
+- navigation and inertial-drift modeling  
+- simulation-aligned system design  
 
-The organization operates as a non-profit technical laboratory dedicated to transparent, reproducible, open-source scientific inquiry.
+All projects are exploratory and evolve as research progresses.
 
-## Primary R&D Programs
+---
 
-All programs listed are exploratory prototypes subject to ongoing analysis and refinement.
+## Public Repositories (Active Research Prototypes)
 
-### TetraCodex
-Recursive post-quantum cryptographic model and entropy-structured codex architecture. (Concept R&D Later absorbed into TetraKlein)
+Below are the nine public repositories currently maintained by Baramay Station Research Inc.
 
 ### TetraKlein
-Multidimensional verifiable computation framework and XR-integrated runtime environment.
+Experimental R&D prototype exploring post-quantum cryptography, zero-knowledge concepts, recursive hashing, and containerized system modeling.  
+Non-functional. Research only.
 
-### TetraUnified
-Unified post-quantum decentralized execution and compute integrity framework. (Concept R&D Later absorbed into TetraKlein)
+### TetraQC
+Concept prototype examining abstract quantum programming ideas, symbolic computation pathways, and geometric encoding concepts.  
+Non-functional and exploratory.
 
-### TetraNav
-High-dimensional geospatial and inertial navigation research.
+### TetraCrypt_Yggdrasil_Unified
+Non-functional research prototype exploring post-quantum communication concepts, mesh-networking structures, and zk-STARK authentication models.  
+Academic prototype only.
 
-### TetraSwarm
-Distributed mesh networking, routing methods, and address architecture studies. (Concept R&D Later absorbed into TetraKlein)
+### TetraNav-PostQuantum
+Open research prototype studying inertial navigation, drift-correction behavior, and environmental sensitivity in unconventional conditions.  
+Simulation-focused. Non-functional.
 
-### TetraVote
-Zero-knowledge, post-quantum voting protocol investigation. (Concept R&D)
+### TetraYau
+Exploratory prototype investigating geometric, algebraic, and Platonic-inspired structures in post-quantum cryptographic modeling.  
+Research-only. Not operational cryptography.
 
-### OCHC-Q-FP
-Biometric-entropy lattice cryptographic scheme (concept phase).
+### TetraYggdrasil_Nexus
+Non-functional research prototype investigating distributed communication concepts, WASM-based mesh-network constructs, and experimental authentication ideas.  
+Conceptual study only.
 
-### Recursive Tesseract Hashing (RTH)
-Experimental four-dimensional entropy recursion function for verifiable state. (Work In Progress)
+### TetraNexus
+Circom-based experimental prototype used to explore structural layouts for zero-knowledge circuits and constraint systems.  
+Work-in-progress. Non-functional.
 
-### Tetrahedral Key Exchange (TKE-12D)
-Multidimensional key exchange mechanism under analytical review.  (Work In Progress)
+### TetraCrypt-PQC-Nexus
+Experimental post-quantum cryptography prototype using geometric encodings such as TKE, QIDL, and RTH.  
+Theoretical model only. Not secure or validated.
 
-### QIDL
-Iso-dodecahedral lattice encryption model (Work In Progress)
+### Abraxas618
+Personal research notes, drafts, and papers stored under `/docs`.  
+Academic reference material.
 
-### Codex Archives
-Framework for long-term, cryptographically anchored research recordkeeping.
-
-### Baramay Station Research Inc.
-Canadian non-profit laboratory advancing cryptography and computation research.
-
-## Publications and Archives
-
-All documents listed are research prototypes, in-progress theoretical constructs, or historical conceptual artefacts. None should be treated as finalized or validated.
-
-- Zenodo Research Profile  
-  https://zenodo.org/records/15207676
-
-- Codex Constitution (Historical; Superseded)  
-  https://doi.org/10.5281/zenodo.15207351
-
-- TetraKlein Genesis (Public Overview)  
-  https://medium.com/@tassalphonse/tetraklein-genesis-v1-4-the-dawn-of-hyperdimensional-infrastructure-ad55ebca7025
+---
 
 ## Mission Statement
 
-Baramay Station Research Inc. pursues the development of computational and communication systems that emphasize:
+Baramay Station Research Inc. aims to:
 
-- mathematical transparency
-- verifiable behaviour
-- long-term reliability
-- open scientific accessibility
+- promote open, transparent scientific investigation  
+- develop early-stage conceptual models for future digital infrastructure  
+- contribute exploratory research back to the academic and open-source communities  
+- support Canadian-led innovation in advanced computation  
 
-All research activities operate within an exploratory context and are explicitly non-operational.
+All research is exploratory and educational.
 
-## Institutional Information
+---
 
-Status: Active  
-Type: Canadian Non-Profit R&D Laboratory  
-Domains: Cryptography, XR computation, verifiable systems engineering  
-Incorporation: April 30, 2025 — Saskatchewan, Canada
+## Licensing
 
-## Repository Contents
+All repositories use permissive open-source licenses (MIT or Apache-2.0) unless stated otherwise.  
+All content is provided **as-is**, without warranties or claims of security.
 
-- Experimental cryptographic frameworks
-- High-dimensional algebra investigations
-- Zero-knowledge verification models
-- XR system architecture studies
-- Mesh-network research artefacts
+---
 
-All contents are subject to change as research evolves.
+## Contact
 
+GitHub: https://github.com/Abraxas618  
+ORCID: https://orcid.org/0009-0005-6468-7651  
+
+A public website for Baramay Station Research Inc. is planned for future release.
+
+---
 ## Archive Access
 
 [![ENTER_THE_ARCHIVE](https://img.shields.io/badge/ENTER_THE_ARCHIVE-00ff00?style=for-the-badge&logo=readthedocs&logoColor=black)](https://abraxas618.github.io/Abraxas618/)
