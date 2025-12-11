@@ -112,3 +112,33 @@ A public website for Baramay Station Research Inc. is planned for future release
 [![ENTER_THE_ARCHIVE](https://img.shields.io/badge/ENTER_THE_ARCHIVE-00ff00?style=for-the-badge&logo=readthedocs&logoColor=black)](https://abraxas618.github.io/Abraxas618/)
 
 ---
+
+# In accordance with the Government of Canada’s Policy on Sensitive Technology Research and Affiliations of Concern (STRAC), Baramay Station affirms the following:
+
+## No Prohibited Affiliations
+Baramay Station Research Inc., its directors, and its contributors are not affiliated with any organizations listed as Named Research Organizations (NROs) or with any foreign military, intelligence, or state-controlled entities identified under STRAC risk categories.
+
+---
+
+## Transparent Funding and Independence
+The project receives no foreign funding, in-kind support, materials, or direction from any entity that falls under STRAC restrictions. All development is self-funded or community-supported within Canada.
+
+---
+
+## Open, Public Research
+All research outputs in this repository are public, unclassified, and openly available, with no dependency on controlled assets or export-restricted hardware or datasets. The work does not involve controlled items under Canada's Export Control List.
+
+---
+
+## Eligibility for Academic Collaboration
+Baramay Station maintains a governance structure, data-handling practices, and publication philosophy fully compatible with Canadian university research standards.
+Should this work be included in a future grant application through a Canadian university, Baramay Station will comply with all STRAC screening, attestation, and risk-mitigation requirements as part of institutional due diligence.
+
+---
+
+## Commitment to Research Integrity & Security
+Baramay Station follows best practices for cybersecurity, data stewardship, open-source transparency, and responsible innovation. Any collaborations, domestic or international, are evaluated for alignment with Canadian standards of research ethics and security.
+
+---
+
+This section is provided to support transparency, to assist institutional partners in their due-diligence processes, and to demonstrate readiness for participation in Canadian Tri-Agency research programs where STRAC compliance is required.
