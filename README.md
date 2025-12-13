@@ -22,6 +22,43 @@ None of the repositories represent production systems, validated cryptography, o
 
 ---
 
+## Latest Research Publication — *TetraKlein: A Unified Architecture*
+
+**Official Research Release — December 9 2025**
+
+We are proud to announce the public release of  
+**[TetraKlein: A Unified Architecture](https://www.researchgate.net/publication/398601206_TetraKlein_A_Unified_Architecture)** —  
+a **1,600-page research-grade framework** integrating:
+
+- Post-Quantum Cryptography (PQC)
+- Zero-Knowledge Proof Systems (ZK-STARK / IVC)
+- Deterministic Virtual Machines (zkVM)
+- Extended Reality (XR) Physics Modeling
+- Digital Twin Convergence (DTC)
+- Multidimensional Hypercube Ledger Mathematics (HBB)
+
+This monograph represents two years of independent R&D conducted at  
+**Baramay Station Research Inc.** — a Canadian nonprofit laboratory dedicated to early-stage exploration of advanced cryptography, simulation systems, and distributed computation.
+
+### Access the Full Research Record
+- **ResearchGate Publication:** [TetraKlein: A Unified Architecture](https://www.researchgate.net/publication/398601206_TetraKlein_A_Unified_Architecture)  
+- **Zenodo DOI Archive:** [10.5281/zenodo.17882467](https://zenodo.org/records/17882467)
+
+### Summary
+*TetraKlein* defines a unified computational substrate designed for mid–21st-century digital infrastructure —  
+a mathematically verifiable system that integrates post-quantum security, recursive proof verification, and XR-based global-state synchronization.
+
+> “Can we design a provably trustworthy computational substrate — one that unifies post-quantum, zero-knowledge, and XR physics into a single verifiable framework?”
+
+All research content is released under:
+- **CC-BY-4.0** (mathematical and scientific text)  
+- **MIT / Apache-2.0** (software components)  
+
+ [Explore the full repository →](https://github.com/Abraxas618/TetraKlein-Unified-Architecture-Whitepaper)
+
+
+---
+
 ## Research Focus
 
 The laboratory investigates early-stage concepts across several domains:
