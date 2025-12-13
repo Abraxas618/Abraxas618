@@ -46,6 +46,14 @@ This monograph represents two years of independent R&D conducted at
 ### Access the Full Research Record
 - **ResearchGate Publication:** [TetraKlein: A Unified Architecture](https://www.researchgate.net/publication/398601206_TetraKlein_A_Unified_Architecture)  
 - **Zenodo DOI Archive:** [10.5281/zenodo.17882467](https://zenodo.org/records/17882467)
+- Permanent Archival Announcement
+
+TetraKlein: The Unified Architecture —
+a 1,692-page research-grade framework for post-quantum, zero-knowledge, and XR-integrated computation —
+is now permanently archived on the Arweave blockchain via ArDrive, ensuring immutable, long-term academic preservation.
+
+# Permanent ArDrive Record:
+### https://app.ardrive.io/#/file/8bc96a4f-0e38-4dae-a095-12515fd39250/view
 
 ### Summary
 *TetraKlein* defines a unified computational substrate designed for mid–21st-century digital infrastructure —  
