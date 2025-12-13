@@ -52,8 +52,11 @@ TetraKlein: The Unified Architecture —
 a 1,692-page research-grade framework for post-quantum, zero-knowledge, and XR-integrated computation —
 is now permanently archived on the Arweave blockchain via ArDrive, ensuring immutable, long-term academic preservation.
 
-# Permanent ArDrive Record:
-### https://app.ardrive.io/#/file/8bc96a4f-0e38-4dae-a095-12515fd39250/view
+### Permanent Archive (Arweave)
+ Immutable blockchain record of *TetraKlein: The Unified Architecture*  
+[ArDrive PDF](https://app.ardrive.io/#/file/8bc96a4f-0e38-4dae-a095-12515fd39250/view)  
+[Arweave Transaction Explorer](https://viewblock.io/arweave/tx/PYBnHpZSJ51O5kcRPEDSEv_Vbr0Gm5uOP6qGJBEfSPA)
+
 
 ### Summary
 *TetraKlein* defines a unified computational substrate designed for mid–21st-century digital infrastructure —  
