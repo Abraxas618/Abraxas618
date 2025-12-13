@@ -1,9 +1,10 @@
-
 # Baramay Station Research Inc.
 
 Principal Investigator: **Michael Tass MacDonald**  
 Founder • Research Director • Cryptography Architect  
 Canadian Non-Profit Research Laboratory
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0005--6468--7651-A6CE39?style=flat&logo=orcid)](https://orcid.org/0009-0005-6468-7651)
+[![Zenodo](https://img.shields.io/badge/Zenodo-Baramay%20Station-blue?style=flat&logo=zenodo)](https://zenodo.org/communities/baramaystationresearchinc)
 
 ---
 
@@ -29,6 +30,7 @@ None of the repositories represent production systems, validated cryptography, o
 We are proud to announce the public release of  
 **[TetraKlein: A Unified Architecture](https://www.researchgate.net/publication/398601206_TetraKlein_A_Unified_Architecture)** —  
 a **1,600-page research-grade framework** integrating:
+© 2025 Baramay Station Research Inc. — Released under CC-BY-4.0 / MIT / Apache-2.0
 
 - Post-Quantum Cryptography (PQC)
 - Zero-Knowledge Proof Systems (ZK-STARK / IVC)
