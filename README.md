@@ -3,6 +3,7 @@
 Principal Investigator: **Michael Tass MacDonald**  
 Founder • Research Director • Cryptography Architect  
 Canadian Non-Profit Research Laboratory
+
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--6468--7651-A6CE39?style=flat&logo=orcid)](https://orcid.org/0009-0005-6468-7651)
 [![Zenodo](https://img.shields.io/badge/Zenodo-Baramay%20Station-blue?style=flat&logo=zenodo)](https://zenodo.org/communities/baramaystationresearchinc)
 
