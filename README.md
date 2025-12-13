@@ -55,7 +55,9 @@ is now permanently archived on the Arweave blockchain via ArDrive, ensuring immu
 ### Permanent Archive (Arweave)
  Immutable blockchain record of *TetraKlein: The Unified Architecture*  
 [ArDrive PDF](https://app.ardrive.io/#/file/8bc96a4f-0e38-4dae-a095-12515fd39250/view)  
+https://app.ardrive.io/#/file/8bc96a4f-0e38-4dae-a095-12515fd39250/view
 [Arweave Transaction Explorer](https://viewblock.io/arweave/tx/PYBnHpZSJ51O5kcRPEDSEv_Vbr0Gm5uOP6qGJBEfSPA)
+https://viewblock.io/arweave/tx/PYBnHpZSJ51O5kcRPEDSEv_Vbr0Gm5uOP6qGJBEfSPA
 
 
 ### Summary
