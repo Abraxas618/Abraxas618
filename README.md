@@ -3,8 +3,8 @@
 **Independent Canadian Non-Profit Research Laboratory**
 Advanced Cryptography • Verifiable Computation • Distributed Systems
 
-**Principal Investigator:** Michael Tass MacDonald
-Founder • Research Director • Cryptography Architect
+**Principal Investigator:** Michael MacDonald
+Founder • Research Director •
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0005--6468--7651-A6CE39?style=flat\&logo=orcid)](https://orcid.org/0009-0005-6468-7651)
 [![Zenodo](https://img.shields.io/badge/Zenodo-Baramay%20Station-blue?style=flat\&logo=zenodo)](https://zenodo.org/communities/baramaystationresearchinc)
@@ -59,26 +59,6 @@ It investigates a unified computational architecture combining:
 
 Unified post-quantum, zero-knowledge, distributed-computation, and simulation research architecture.
 
-### TetraCrypt_Yggdrasil_Unified
-
-Post-quantum communication, mesh networking, and proof-based authentication research.
-
-### TetraNav-PostQuantum
-
-Simulation research into inertial navigation, drift correction, and verifiable navigation state.
-
-### TetraNexus
-
-Experimental Circom and zero-knowledge circuit development.
-
-### TetraCrypt-PQC-Nexus
-
-Experimental cryptographic and geometric encoding research.
-
-### TetraQC / TetraYau / TetraYggdrasil_Nexus
-
-Exploratory computation, mathematics, networking, and systems research.
-
 ---
 
 ## Research Principles
@@ -112,7 +92,7 @@ Software components use **MIT** or **Apache-2.0** where specified.
 
 ## Contact
 
-**Michael Tass MacDonald**
+**Michael MacDonald**
 Principal Investigator — Baramay Station Research Inc.
 
 GitHub: [Abraxas618](https://github.com/Abraxas618)
